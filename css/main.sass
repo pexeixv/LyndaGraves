@@ -1,0 +1,87 @@
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+html
+    font-size: 62.5%
+    font-family: 'Poppins', sans-serif
+    color: #3b3b3b
+a
+    text-decoration: none
+
+
+
+.container
+    width: 100vw
+    height: 100vh
+    overflow: hidden
+    padding: 4rem
+    display: flex
+    flex-direction: column
+    background: linear-gradient(#ffffff, #c9c9c9)
+    header
+        width: 100%
+        height: 6rem
+        display: flex
+        align-items: flex-start
+        justify-content: flex-start
+        img
+            height: 6rem
+    .content
+        margin-bottom: 100px
+        flex: 1
+        display: flex
+        flex-direction: column
+        justify-content: center
+        text-align: center
+        h1,h3,hr,.buttons
+            z-index: 2
+        h1
+            font-size: 3rem
+            text-transform: uppercase
+            font-weight: normal
+            margin-bottom: 3rem
+        h3
+            font-size: 1.2rem
+            font-weight: normal
+            margin-bottom: 3rem
+        hr
+            width: 50%
+            margin: 0 auto 3rem
+        nav
+            margin: 3rem
+            a
+                padding: 1rem 2rem
+                margin: 7rem
+                outline: 2px solid #3b3b3b
+                font-size: 1.5rem
+                text-transform: uppercase
+                &:hover
+                    background: black
+                    outline: none
+                    color: white
+
+    .plant
+        position: absolute
+        height: 300px
+        bottom: 0
+        left: 0
+    footer
+        height: 3rem
+        width: 100%
+        display: flex
+        align-items: flex-end
+        justify-content: flex-end
+        .social
+            display: flex
+            height: 100%
+            width: 10%
+            justify-content: space-between
+            filter: invert(0.5)
+            a
+                transition: all 100ms ease-in-out
+                &:hover
+                    transform: scale(1.1)
+                    filter: invert(0)
+                img
+                    height: 3rem
