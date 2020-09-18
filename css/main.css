@@ -13,10 +13,11 @@ html {
 
 a {
   text-decoration: none;
-  color: #005a00;
+  color: black;
 }
 
 .container {
+  position: relative;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -100,12 +101,21 @@ a {
   outline: 2px solid #3b3b3b;
   font-size: 1.5rem;
   text-transform: uppercase;
+  color: #005a00;
 }
 
 .container .content nav a:hover {
   background: black;
   outline: none;
   color: white;
+}
+
+.container .copyright {
+  position: absolute;
+  bottom: .5rem;
+  text-align: center;
+  margin: auto;
+  width: 92%;
 }
 
 .container .plant {
